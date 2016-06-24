@@ -14,7 +14,7 @@ public class asd {
 		Admin admin=new Admin();
 		admin.setIsim("Utku Malkocoglu");
 		admin.setK_adi("utku");
-		admin.setSifre("utku6161");
+		admin.setSifre("1111");
 		session.beginTransaction();
 		session.save(admin);
 		session.getTransaction().commit();
